@@ -21,7 +21,6 @@ console.log(teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 
-
 const lastTeacher = teachers.pop();
 console.log(lastTeacher);
 
@@ -56,12 +55,18 @@ console.log(lewisIndex);
 // e salva il risultato nella variabile isTeachersEmpty
 
 
-if (teachers.length == 0) {
-  // console.log('Array vuoto');
-  isTeachersEmpty = 'Array vuoto';
-} else {
-  isTeachersEmpty = 'Array pieno';
-  // console.log('Array pieno');
-}
+// if (teachers.length == 0) {
+//   // console.log('Array vuoto');
+//   isTeachersEmpty = 'Array vuoto';
+// } else {
+//   isTeachersEmpty = 'Array pieno';
+//   // console.log('Array pieno');
+// }
+// console.log(isTeachersEmpty);
+
+
+const isTeachersEmpty = teachers.length === 0;
+
 console.log(isTeachersEmpty);
+
 
